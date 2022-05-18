@@ -10,5 +10,5 @@ run yum install git -y
 expose 80
 run git clone https://github.com/chandujain/tesla.git
 WORKDIR tesla
-copy ./home/ubuntu/tesla/project.html /var/www/html
+copy ./project.html /var/www/html
 RUN  httpd
